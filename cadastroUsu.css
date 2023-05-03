@@ -1,0 +1,131 @@
+.body {
+    background-color: #D3E2E7;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(23, 65, 149, 0.59);
+    box-shadow: 0px 3px 8px #615f5f8d;
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    margin-top: 0;
+    margin-left:-25% ;
+}
+
+.nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin-top: -15px;
+}
+
+.nav-container ul li {
+    list-style: none;
+    float: left;
+    margin: 0 70px;
+    margin-right: -50px;
+}
+
+.nav-container li button {
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+    width: 130.31px;
+    height: 30.41px;
+    font-family: 'K2D', sans-serif;
+    font-size: 17px;
+    color: #FBF0F8;
+    background-color: #174195;
+    border: 3px solid #FBF0F8;
+    border-radius: 55px;
+    margin-left: 100px;
+}
+
+.nav-container li button:hover {
+    color: #A2D2FF;
+}
+ /*-----------------------------------------------------------*/
+
+ .form-usuario {
+    border:none;
+    color: #174195;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 35px;
+    border-radius: 55px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+input::placeholder {
+    color: #174195;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+
+.form {
+    margin-top: 5%;
+}
+
+.field {
+    width: 800px;
+    height: 900px;
+    margin: 0px auto;
+    margin-top: 8%;
+    border-radius: 50px;
+    border: none;
+    backface-visibility: visible;
+}
+
+.btn-cadastrar {
+    color: #F2F2F2;
+    background-color: #174195;
+    box-shadow: 0 4px 4px 0 #00000044;
+    border: none;
+    font-family: 'K2D', sans-serif;
+    width: 154.31px;
+    height: 37.41px;
+    font-size: 20px;
+    border-radius: 55px;
+    margin-top: 30px;
+}
+.btn-limpar{
+    color: #000000;
+    background-color: #C3EAF7;
+    box-shadow: 0 4px 4px 0 #00000044;
+    border: none;
+    font-family: 'K2D', sans-serif;
+    width: 154.31px;
+    height: 37.41px;
+    font-size: 20px;
+    border-radius: 55px;
+    margin-top: 30px;
+}
