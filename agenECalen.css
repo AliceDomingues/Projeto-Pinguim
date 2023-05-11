@@ -1,0 +1,119 @@
+.my-container {
+    background-color:hsl(204, 11%, 33%);
+  }
+
+  .my-navbar{
+      background-color: hsl(210, 60%, 65%);
+  }
+
+  .vertical-container {
+    display: flex;
+    flex-direction: column;
+    height: 900vh;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sidebar {
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 1;
+	top: 9,5%;
+	left: 0;
+	background-color: #4A555B;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidebar a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #f7dfdf;
+	display: block;
+}
+
+.sidebar a:hover {
+	color: #f1f1f1;
+}
+
+.sidebar a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+    .margin{
+    margin-top: 10%;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin-left: 25%;
+        width: 70%;
+        height: 80%;
+    }
+    
+    th, td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #070101;
+    }
+    
+    th {
+        background-color: #6BA5FC;
+       
+    }
+    .td{
+    background-color: #f2f2f2;
+    }
+    
+    td:first-child {
+        font-weight: bold;
+        border-right: none;
+    }
+    
+    tr:first-child td {
+        border-top: none;
+        
+    }
+    
+    td:not(:first-child) {
+        border: 1px solid #ddd;
+    }
+    
+    
+    
+    td.white {
+        background-color: #fff;
+        border: 1px solid #140101;
+    
+    }
+    .btn-cadastrar {
+        color: #F2F2F2;
+        background-color: hsl(210, 60%, 65%);
+        box-shadow: 0 4px 4px 0 #00000044;
+        border: none;
+        font-family: 'K2D', sans-serif;
+        width: 250.31px;
+        height: 47.41px;
+        font-size: 20px;
+        border-radius: 55px;
+        margin-top: 55px;
+        margin-left: 65%;
+    }
+    
+    .h2{
+        margin-right: 42%;
+    }
+   
+
+   

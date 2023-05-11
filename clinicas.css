@@ -1,0 +1,23 @@
+.my-container {
+    background-color:hsl(204, 11%, 33%);
+  }
+
+  .my-navbar{
+      background-color: hsl(210, 60%, 65%);
+  }
+
+  .vertical-container {
+    display: flex;
+    flex-direction: column;
+    height: 900vh;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
